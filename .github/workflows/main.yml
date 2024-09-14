@@ -30,7 +30,7 @@ jobs:
           plugin_habits_from: 400
           plugin_habits_days: 30
           plugin_habits_facts: yes
-          config_timezone: Asia/Manila
+          config_timezone: Germany/Berlin
 
   github-contributions-snake:
     runs-on: ubuntu-latest
@@ -54,3 +54,5 @@ jobs:
           git reset --soft HEAD~2
           git commit -m "chore: update assets [skip ci]"
           git push -f
+
+            
