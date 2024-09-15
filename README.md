@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+[![Snake Graph](https://raw.githubusercontent.com/dxdye/dxdye/assets/github-snake.svg)]
+
 <!--
 **dxdye/dxdye** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
