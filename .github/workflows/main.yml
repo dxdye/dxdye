@@ -31,4 +31,3 @@ jobs:
           git reset --soft HEAD~2
           git commit -m "chore: update assets [skip ci]"
           git push -f 
-
