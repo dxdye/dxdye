@@ -25,6 +25,8 @@ jobs:
           outputs: github-snake.svg?palette=github-dark
 
       - name: Squash and Commit
+        with: 
+          github_token: ${{ secrets.seckey }}
         run: |
           git add .
           git reset --soft HEAD~2
