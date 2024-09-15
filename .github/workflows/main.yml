@@ -17,7 +17,6 @@ jobs:
         with:
           ref: assets
           fetch-depth: 0
-          token: ${{ secrets.seckey }}
       - uses: fregante/setup-git-user@v2
 
       - uses: Platane/snk/svg-only@main
