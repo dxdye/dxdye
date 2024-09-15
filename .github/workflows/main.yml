@@ -6,7 +6,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "/1 */6 * * *"
+    - cron: "*/1 * * * *"
 
 jobs:
   github-contributions-snake:
