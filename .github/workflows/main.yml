@@ -25,12 +25,12 @@ jobs:
           outputs: github-snake.svg?palette=github-dark
 
       - name: Squash and Commit
-        with: 
-          github_token: ${{ secrets.seckey }}
         run: |
           git add .
           git reset --soft HEAD~2
           git commit -m "chore: update assets [skip ci]"
-          git push -f
-
+      - name: PUSH 
+        uses: dxdye/push@v1.3
+        with: 
+          github_token: ${{ secrets.seckey }}
             
