@@ -29,7 +29,4 @@ jobs:
           git add .
           git reset --soft HEAD~2
           git commit -m "chore: update assets [skip ci]"
-      - name: PUSH 
-        uses: dxdye/push@v1.3
-
             
