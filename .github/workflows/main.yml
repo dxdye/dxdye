@@ -17,6 +17,7 @@ jobs:
         with:
           ref: assets
           fetch-depth: 0
+          token: ${{ secrets.seckey }}
       - uses: fregante/setup-git-user@v2
 
       - uses: Platane/snk/svg-only@main
@@ -31,6 +32,5 @@ jobs:
           git commit -m "chore: update assets [skip ci]"
       - name: PUSH 
         uses: dxdye/push@v1.3
-        with: 
-          github_token: ${{ secrets.seckey }}
+
             
