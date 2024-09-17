@@ -5,7 +5,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "*/1 * * * *"
+    - cron: "*/10 * * * *"
 
 jobs:
   github-contributions-snake:
@@ -29,5 +29,4 @@ jobs:
         run: |
           git add .
           git reset --soft HEAD~2
-          git commit -m "chore: update assets [skip ci]"
           git push -f 
