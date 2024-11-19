@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-![Snake Graph](https://raw.githubusercontent.com/dxdye/dxdye/assets/github-snake.svg)
+[![Snake Graph](https://raw.githubusercontent.com/dxdye/dxdye/assets/github-snake.svg)](#)
 
 
 
