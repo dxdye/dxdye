@@ -1,4 +1,3 @@
-
 name: Generate assets
 
 on:
@@ -28,7 +27,7 @@ jobs:
         run: |
           git add .
           git reset --soft HEAD~2
-        git commit -m "chore: update assets [skip ci]"
-        git push -f
+          git commit -m "chore: update assets [skip ci]"
+          git push -f
 
 
